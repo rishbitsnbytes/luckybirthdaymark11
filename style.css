@@ -1,0 +1,50 @@
+
+:root {
+  --primary-dark : #B45309
+;
+  --primary-green: #FDE68A;
+}
+
+body {
+  background-color: white;
+  border: 2px solid var(--primary-dark);
+  display: block;
+  margin: auto;
+  color: var(--primary-green);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+input,
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#check-number {
+  display: block;
+  margin-top: 1rem;
+  margin: auto;
+  background: transparent;
+  color: var(--primary-green);
+  border-color: var(--primary-green);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+
+
