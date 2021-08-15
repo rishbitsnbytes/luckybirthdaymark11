@@ -4,7 +4,7 @@ const checkNumberButton = document.querySelector("#check-number");
 const outputBox = document.querySelector("#output-box");
 
 
-checkNumberButton.addEventListener('click',checkBirthDateIsLucky)
+checkNumberButton.addEventListener('click',checkBirthDateIsLucky);
 
 
 function compareValues(sum,luckyNumber){

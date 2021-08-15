@@ -2,21 +2,30 @@
 :root {
   --primary-dark : #B45309
 ;
-  --primary-green: #FDE68A;
+  --primary-light: #FECACA
+  ;
 }
 
+
+
 body {
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: white;
   border: 2px solid var(--primary-dark);
+  border-radius: 1rem;
   display: block;
   margin: auto;
-  color: var(--primary-green);
-  font-family: 'Montserrat', sans-serif;
+  padding: 2rem;
+  width: fit-content;
+  height: fit-content;
+  color: var(--primary-light);
 }
 
 h1 {
   text-align: center;
-  margin: 2rem;
+  padding: 1rem 1rem 3rem 1rem;
+  margin: 2rem auto;
+  color: var(--primary-dark);
 }
 
 .container {
@@ -27,24 +36,39 @@ h1 {
 input,
 label {
   display: block;
+  margin: 1rem auto;
+  color: var(--primary-dark);
 }
 
 input {
   margin-bottom: 0.5rem;
-  width: 100%;
+  width: 80%;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 2px solid var(--primary-dark);
+  border-radius: 1rem;
 }
 
 #check-number {
   display: block;
-  margin-top: 1rem;
-  margin: auto;
+  margin: 3rem auto;
   background: transparent;
-  color: var(--primary-green);
-  border-color: var(--primary-green);
+  color: var(--primary-dark);
+  border-color: var(--primary-light);
   border-width: medium;
+  border-radius: 1rem;
   padding: 0.5rem;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
 }
 
+#output-box{
+    border: 2px solid var(--primary-dark);
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--primary-dark);
+    background-color: var(--primary-light);
+}
 
 
