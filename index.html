@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>lucky birthday check!</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luck Birthday</title>
+    <link  href="/style.css" rel="stylesheet">
 
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-</head>
 
+    <script src="/app.js" defer></script>
+</head>
 <body>
-    <h1>Is your birthday lucky?🥳</h1>
-    <div class="container">
-        <label for="date-of-birth">Date of Birth: <input type="date" id="date-of-birth"></label>
-        
-        <label for="lucky-number">Lucky Number <input id="lucky-number" type="number"></label>
-        
-        <button id="check-number">Check Number</button>
-        <div id="output-box"></div>
-        <div style="height: 5vh;"></div>
-    </div>
-    <script src="script.js"></script>
+
+    <h1>is your birthday lucky?</h1>
+    <label for="inputDOB" class="labels"> Your Date Of Birth :  <input type="date" id="inputDOB" placeholder="DOB" required/> </label>  
+    <label for="inputLuckyNum" class="labels"> Your Lucky Number : <input type="text" id="inputLuckyNum" placeholder="Lucky Number" onfocus="this.value=''" required/> </label>  
+    <button id="btnCheck">Check</button> 
+    <div id="outputDiv" class="output-txt"></div>
+    <div id="outputDivGif" class="output-gif"></div>
+
 </body>
 
 </html>
